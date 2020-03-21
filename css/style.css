@@ -64,6 +64,18 @@ h1, h2, h3, h4, h5,
     }
 }
 
+.ftco-footer-social .fab,
+.ftco-footer-social .fas 
+{
+    position: absolute;
+    font-size: 26px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
 .tripadvisor-iframe {
     width: 100%;
     height: 30em;
@@ -612,7 +624,8 @@ textarea {
 }
 
 .ftco-footer-social li a:hover {
-    color: #fff;
+    color: #4586F1;
+    box-shadow: 0px 1px 12px 0px;
 }
 
 .footer-small-nav > li {
