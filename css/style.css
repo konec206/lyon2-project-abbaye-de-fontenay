@@ -33,6 +33,14 @@ h1, h2, h3, h4, h5,
     color: #4586FF !important;
 }
 
+.scrolled .collapse.show,
+.scrolled .collapsing {
+    display: block;
+    text-align: center;
+    background: #fff;
+    border-bottom: 1px solid #f2f2f2f2;
+}
+
 .ftco-navbar-light {
     background: #fff !important;
     height: 10%;
